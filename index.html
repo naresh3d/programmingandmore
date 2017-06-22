@@ -162,10 +162,17 @@
 
     <!-- Theme JavaScript -->
     <script src="js/clean-blog.min.js"></script>
+	
+	<script src="js/notify.js"></script>
 
     <!-- Custom Project JavaScript -->
     <script src="js/custom.js"></script>
-
+	
+	<script>
+		$.notify.defaults({ className: "info" });
+		$.notify("The site is under construction. Some features may be unavailable.", {position: "right bottom"});
+	</script>
+	
 </body>
 
 </html>
